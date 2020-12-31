@@ -15,21 +15,15 @@
 
 
 int get_sw_state(int n);
-
 int get_btn_state(int n);
 
 void en_led(int n);
-
 void dis_led(int n);
-
 void set_RGB(int n, int R, int G, int B);
 
 void sseg_dig_en(uint8_t val);
-
 void sseg_dp_en(uint8_t val);
-
 void sseg_set_num(int num);
-
 int sseg_get_num(void);
 
 
